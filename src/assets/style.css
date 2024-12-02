@@ -120,6 +120,11 @@ header nav ul li a:hover {
   overflow: hidden;
   width: 300px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.destinos-grid article:hover {
+  transform: scale(1.1);
 }
 
 .destinos-grid img {
@@ -214,10 +219,20 @@ blockquote footer {
 
 .actividades-grid article {
   background-color: white;
+  color: #0c7ef7;
+  transition: tranform 0.3s ease;
   padding: 20px;
   border-radius: 10px;
   width: 300px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.actividades-grid article a {
+  text-decoration: none;
+}
+
+.actividades-grid article:hover {
+  transform: scale(1.1);
 }
 
 .actividades-grid h3 {
@@ -250,6 +265,15 @@ blockquote footer {
   border-radius: 10px;
   width: 300px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.eventos-grid article:hover {
+  transform: scale(1.1);
+}
+
+.eventos-grid article a {
+  text-decoration: none;
 }
 
 /* Cultura */
@@ -324,7 +348,6 @@ footer {
   color: white;
   padding: 20px 0;
   text-align: center;
-  border-radius: 5px;
 }
 
 footer .footer-info {

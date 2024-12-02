@@ -14,6 +14,25 @@ const Footer = () => {
               <a href="#terminos">Términos de Servicio</a>
             </li>
           </ul>
+          <ul>
+            <li>
+              <a href="">Eliana Gimenez</a>
+            </li>
+            <li>
+              <a href="">Romina Luggren</a>
+            </li>
+            <li>
+              <a href="">Mariano Bernal</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/go.travelers/">Instragram</a>
+            </li>
+            <li>
+              <a href="https://x.com/gotravel">Twitter</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </footer>
