@@ -4,7 +4,11 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src="/images/logodelsitio.png" alt="Visit Norway Logo" />
+        <img
+          src="/images/logodelsitio.png"
+          alt="Visit Norway Logo"
+          id="imagen-logo"
+        />
       </div>
       <nav>
         <ul>

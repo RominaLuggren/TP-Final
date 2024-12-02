@@ -89,6 +89,12 @@ header nav ul li a:hover {
   background-color: #d62828;
 }
 
+/*Header*/
+#imagen-logo {
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
 /* Destinos Populares */
 .destinos-populares {
   padding: 50px 20px;
@@ -264,7 +270,7 @@ blockquote footer {
   margin: 0 auto;
   color: #555;
 }
-
+/* Contacto */
 .contacto {
   padding: 50px 20px;
   background-color: #f4f4f4;

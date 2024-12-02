@@ -20,13 +20,13 @@ const Testimonios = () => {
     },
   ]);
 
-  // Estado para el nuevo comentario
+  // estado del nuevo comentario
   const [nuevoComentario, setNuevoComentario] = useState({
     texto: "",
     autor: "",
   });
 
-  // Función para manejar el cambio en el formulario de nuevo comentario
+  // función que maneja el cambio en el nuevo comentario
   const handleChange = (e) => {
     const { name, value } = e.target;
     setNuevoComentario({
@@ -35,7 +35,7 @@ const Testimonios = () => {
     });
   };
 
-  // Función para agregar el nuevo comentario
+  // función que agrega un nuevo comentario
   const agregarComentario = () => {
     if (nuevoComentario.texto && nuevoComentario.autor) {
       setComentarios([
@@ -45,7 +45,7 @@ const Testimonios = () => {
           autor: nuevoComentario.autor,
         },
       ]);
-      setNuevoComentario({ texto: "", autor: "" }); // Limpiar los campos del formulario
+      setNuevoComentario({ texto: "", autor: "" }); // limpia los campos
     } else {
       alert("Por favor, completa ambos campos.");
     }
@@ -64,7 +64,7 @@ const Testimonios = () => {
         ))}
       </div>
 
-      {/* Formulario para agregar nuevo comentario */}
+      {/* formulario para agregar nuevo comentario */}
       <div className="agregar-comentario">
         <h3>Agregar tu comentario</h3>
         <textarea
