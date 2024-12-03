@@ -1,6 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Asegúrate de importar Bootstrap
-
+import "bootstrap/dist/css/bootstrap.min.css";
 const Header = () => {
   return (
     <header className="custom-header">
@@ -15,7 +14,7 @@ const Header = () => {
             />
           </a>
 
-          {/* Botón de menú para dispositivos móviles */}
+          {/* Botón de menú */}
           <button
             className="navbar-toggler"
             type="button"
