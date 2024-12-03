@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero-text">
         <h1>Explora la belleza del mundo</h1>{" "}
         <p>Explora culturas, paisajes y aventuras en cada rincón del planeta</p>
-        <a href="#destinos" className="btn">
+        <a href="#destinos" className="btn-destinos">
           Ver destinos
         </a>
       </div>

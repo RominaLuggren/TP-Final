@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Testimonios = () => {
-  // Estado para almacenar los comentarios
+  // estado para almacenar los comentarios
   const [comentarios, setComentarios] = useState([
     {
       texto:
@@ -28,7 +28,7 @@ const Testimonios = () => {
 
   // función que maneja el cambio en el nuevo comentario
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value } = e.target; //elemento que disparó el evento
     setNuevoComentario({
       ...nuevoComentario,
       [name]: value,
