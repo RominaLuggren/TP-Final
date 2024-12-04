@@ -1,0 +1,10 @@
+[build]
+  base = "GoTravel"  # Especifica la carpeta base del proyecto
+  command = "npm run build"  # Comando para construir tu proyecto
+  publish = "GoTravel/dist"  # Directorio donde se publican los archivos estáticos
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
