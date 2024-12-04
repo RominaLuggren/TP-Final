@@ -1,7 +1,13 @@
 [build]
-  base = "GoTravel"  # Especifica la carpeta base del proyecto
-  command = "npm run build"  # Comando para construir tu proyecto
-  publish = "GoTravel/dist"  # Directorio donde se publican los archivos estáticos
+  base = "GoTravel"
+  command = "npm run build"
+  publish = "GoTravel/dist"
+
+[functions]
+  directory = "functions"
+
+[build.environment]
+  NODE_VERSION = "14.x"  # O la versión que estés utilizando
 
 [[redirects]]
   from = "/*"
